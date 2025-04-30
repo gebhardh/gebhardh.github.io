@@ -2,7 +2,7 @@
  * Gng *
  ************/
 
-import { core, data, sound, util, visual, hardware } from './lib/psychojs-2025.1.0.js';
+import { core, data, sound, util, visual, hardware } from './psychjs/src/core/psychojs.js';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;
